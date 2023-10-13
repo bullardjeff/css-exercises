@@ -6,13 +6,12 @@ The fourth element: a light green background, a font size of 24px, and bold
 
 Two IDs for even number lines, One class for all odd but third has an additional class*/
 
-.odd-element,
-.middle-element {
+.odd-element {
     background-color: lightcoral;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.middle-element {
+.font-adjustment {
     font-size: 24px;
 }
 
@@ -24,5 +23,4 @@ Two IDs for even number lines, One class for all odd but third has an additional
 #fourth-element {
     background-color: lightgreen;
     font-weight: bold;
-    font-size: 24px;
 }
